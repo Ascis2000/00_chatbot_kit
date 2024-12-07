@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+div.react-chatbot-kit-chat-container {
+    width: 400px;
+    height: 300px;
+
+    right: 150px;
+    bottom: 150px;
+    position: fixed;
+}
+
+div.react-chatbot-kit-chat-inner-container {
+    border: 3px solid rgb(191, 202, 66);
+    overflow: auto;
+    padding: 1px;
+    display: flex;
+    background: linear-gradient(to bottom, white, rgb(223, 230, 232));
+
+    flex-direction: column;
+    height: 100%;
+    /* Asegura que use toda la altura del contenedor */
+    overflow-y: auto;
+    /* Habilita el scroll para el contenido */
+}
+
+div.react-chatbot-kit-chat-header {}
+
+div.react-chatbot-kit-chat-input-container {}
+
+div.react-chatbot-kit-chat-message-container {}
+
+div.react-chatbot-kit-chat-input {}
+
+div.react-chatbot-kit-chat-input-form {}
+
+div.react-chatbot-kit-chat-input::placeholder {}
+
+div.react-chatbot-kit-chat-btn-send {}
+
+div.react-chatbot-kit-chat-btn-send-icon {}
+
+div.react-chatbot-kit-chat-bot-message-container {
+    border: 3px solid rgb(66, 202, 91);
+}
+
+div.react-chatbot-kit-chat-bot-avatar-container {
+    content: "E";
+}
+
+div.react-chatbot-kit-chat-bot-avatar-icon {}
+
+div .react-chatbot-kit-chat-bot-message-container
+    .react-chatbot-kit-chat-bot-avatar-container 
+    .react-chatbot-kit-chat-bot-avatar-letter {
+        font-size: 0;
+        position: relative;
+}
+.react-chatbot-kit-chat-bot-avatar-letter::before {
+    content: "E";
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra la nueva letra */
+}
+
+.react-chatbot-kit-user-chat-message {
+    border: 2px solid red;
+}
+.react-chatbot-kit-user-chat-message-arrow {
+
+    border-left: 8px solid red;
+    position: absolute;
+    right: -8px;
+}
+
+.react-chatbot-kit-chat-bot-message {}
+
+div.react-chatbot-kit-chat-bot-message-arrow {}
+
+div.react-chatbot-kit-chat-bot-loading-icon-container {}
+
+div.chatbot-loader-container {}
+
+#chatbot-loader #chatbot-loader-dot1 {}
+
+#chatbot-loader #chatbot-loader-dot2 {}
+
+#chatbot-loader #chatbot-loader-dot3 {}
+
+div.react-chatbot-kit-error {}
+
+div.react-chatbot-kit-error-container {}
+
+div.react-chatbot-kit-error-header {}
+
+div.react-chatbot-kit-error-docs {}
